@@ -1,0 +1,12 @@
+* {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  position: absolute;
+  border: 1px red dotted;
+}
