@@ -4,9 +4,15 @@
 
 h1 {
   text-align: center;
+  font-size: 25px;
 }
 
 form {
-  position: absolute;
-  border: 1px red dotted;
+  height:100%;
+  background: rgb(247, 247, 247);
+  border: 2px rgb(145, 145, 145) groove;
+}
+
+label {
+  font-size: 20px;
 }

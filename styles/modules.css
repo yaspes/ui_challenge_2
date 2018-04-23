@@ -1,4 +1,36 @@
 #validation {
   color: red;
-  
+  font-weight: bold;
+}
+
+input[type=checkbox] {
+  background: url('img/form-elements-sprite.png') no-repeat -158px -239px;
+	width: 25px;
+	height: 25px;
+}
+
+input[type=checkbox]:checked {
+  background: url('img/form-elements-sprite.png') no-repeat -381px -239px;
+	width: 25px;
+	height: 25px;
+}
+
+input[type=radio] {
+  background: url('img/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 25px;
+	height: 25px;
+}
+
+input[type=radio]:checked {
+  background: url('img/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 25px;
+	height: 25px;
+}
+
+#option-1, #option-3, #option-5 {
+  background: rgb(211, 210, 210);
+}
+
+#option-2, #option-4 {
+  background: rgb(145, 144, 144);
 }
