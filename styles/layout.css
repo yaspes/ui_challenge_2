@@ -1,0 +1,22 @@
+@media only screen and (max-width: 700px) {
+  form {
+    position: absolute;
+    min-width: 700px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+  }
+  form > * {
+    position: relative;
+    padding: 3px;
+  }
+} 
+
+@media only screen and (min-width: 700px) {
+  form {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+  }
+} 
